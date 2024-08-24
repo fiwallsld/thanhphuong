@@ -1,0 +1,26 @@
+.form-container {
+
+}
+
+.form-container label {
+    width: 100%;
+   margin-bottom: 2px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 0 4px;
+    margin-bottom: 8px;
+}
+
+.form-container textarea {
+    padding: 0 4px;
+
+}
+
+.form-container button {
+    padding: 4px 40px;
+    border: none;
+    color: white;
+    background-color: #028078;
+}

@@ -1,0 +1,51 @@
+.container-table {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;;
+}
+
+table button {
+    border: 1px solid #d21309;
+    padding: 2px;
+    border-radius: 4px;
+    color: #d21309;
+}
+
+table button:hover {
+}
+
+
+table, tr, th, td {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+
+th:first-child {
+    width: 20px;
+}
+td:first-child {
+    border-right: 0px;
+  
+  }
+
+tr td {
+    padding: 5px 0;
+}
+
+tfoot  {
+    justify-content: end;
+}
+
+
+tr:nth-child(even) {
+    background-color: #c5d1d1;
+}
+
+.td--name {
+    text-align: left;
+}

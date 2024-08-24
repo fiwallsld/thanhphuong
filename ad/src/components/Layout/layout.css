@@ -1,0 +1,91 @@
+main {
+    position: relative;
+}
+
+.cl-icon {
+    color: #7a52bb;
+}
+
+header {
+    border-bottom: 1px solid #333333;
+}
+
+.title {
+    width: 300px;
+
+}
+
+.title:after {
+    border-right: 1px solid #333;
+    height: 100vh;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 290px;
+    /* left: 25%; */
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.sidebar a {
+    display: inline-block;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    background-color: #38478b7e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*-------------------*/
+.pri-bgr {
+    background-color: #003580;
+    color: #fff;
+}
+
+.pri-clr {
+    color: #fff;
+}
+
+.disabled {
+ background: #797979;
+}
+
+a.dis {
+ color: #797979;
+ pointer-events: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.myBtn {
+    border: none;
+  padding: 10px 20px;
+  background-color: #7a52bb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+.myBtn:hover {
+    opacity: 0.8;
+}
+
+.danger {
+    color: #842029;
+    background-color: #f8d7da;
+    
+}
+
+.textDanger {
+    color: #b5323d;
+}

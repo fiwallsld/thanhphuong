@@ -1,0 +1,49 @@
+.info-item {
+    width: 100%;
+    border: 1px solid #5c5c5c79;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 6px 8px 10px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 8px 10px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 8px 10px -7px rgba(0,0,0,0.75);
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.text-item--icon {
+    text-align: end;
+}
+
+.icon-person {
+    color: #fb0452;
+    background-color: #cf648688;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.icon-cart {
+    width: 1.5rem;
+    color: #f3fb04;
+    background-color: #f3fb04bd;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+
+.icon-money {
+    width: 1.5rem;
+    color: #029c2b;
+    background-color: #04fb46bd;
+    padding: 3px 2px;
+    border-radius: 2px;
+}
+
+.icon-wallet {
+    width: 1.5rem;
+    color: #d400d4;
+    background-color: #d400d47f;
+    padding: 3px 2px;
+    border-radius: 2px;
+}
